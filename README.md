@@ -1,49 +1,47 @@
-Attendance Record Project
-A user-friendly project designed to manage and track attendance efficiently. Ideal for schools, workplaces, or events, this system allows users to record, view, and manage attendance records with ease.
+Face Recognition
+
+Real-Time Image Classification
+
+This project uses a pre-trained Keras model to perform real-time image classification from a webcam feed.
+
 
 Features
-Record Attendance: Mark attendance for individuals or groups quickly.
-Attendance Logs: View detailed records by date or individual.
-Editable Records: Update or delete attendance entries as needed.
-Download Data: Export attendance logs in an easy-to-use format (e.g., CSV).
-Simple Interface: Straightforward navigation for all users.
-How to Download and Use
-Download the Files:
 
-Click the green Code button at the top of the repository.
+Loads a trained .h5 model and class labels from labels.txt.
+Captures video from the webcam.
+Resizes and normalizes video frames for model predictions.
+Displays predicted class and confidence score in real-time.
+Shows live video feed with an option to quit.
+
+Setup
+
+Install required libraries:
+pip install tensorflow opencv-python numpy
+Ensure the following files are available:
+keras_model.h5: Pre-trained model.
+labels.txt: Class labels, one per line.
+
+How to Run
+
+Place the files in the appropriate directory.
+Run the script:
+python script_name.py
+Press q to exit.
+
+Key Functions
+
+Frame Processing: Resizes to 224x224 and normalizes to [0, 1].
+Model Prediction: Identifies the class with the highest confidence.
+Real-Time Display: Outputs class and confidence on the terminal and shows live video.
+Requirements
+Python 3.7+
+Webcam
+
+Note
+
+Ensure the webcam is accessible and the paths to keras_model.h5 and labels.txt are correct.
 
 
 
-Select Download ZIP to download the project files.
 
-
-
-Extract the ZIP file to your desired location.
-
-make sure the keras model and labels are also in the same directory
-
-Run the Project:
-
-Open the attendance_record file ( code.py) to launch the application.
-
-
-
-install necessary libraries in the terminal
-
-pip install mysql-connector-python
-
-pip install tensorflow==2.10.0
-
-pip install opencv-python==4.5.5.64
-
-pip install numpy==1.21.6
-
-run the code
-
-Customize as Needed:
-
-Edit files to fit your requirements.
-Add custom branding or functionality.
-Contribution
-Feel free to contribute to this project by submitting a pull request or opening an issue.
 
