@@ -1,8 +1,8 @@
-face Recognition with Google Teachable Machine
+Face Recognition with Google Teachable Machine
 
 This project demonstrates a simple implementation of face recognition using a pre-trained model from Google Teachable Machine. It is designed for beginners and runs on Python.
 
-Overview
+Overview:-
 
 Google Teachable Machine provides an easy way to train and export machine learning models. In this project, we use it to recognize faces and implement the model in a Python-based application.
 
@@ -29,26 +29,33 @@ Webcam or external camera
 Steps To Be Follwed:-
 
 Search for google teachable machine
-image
+
+![image](https://github.com/user-attachments/assets/8c47c19a-e825-4ba4-b584-00c127c49682)
+
 
 2.Select the link
 
-image
+![image](https://github.com/user-attachments/assets/08a20a80-11f0-4377-8345-89b6d68617f0)
+
 
 3.Select get Started
 
-Screenshot 2025-01-10 114909
+![image](https://github.com/user-attachments/assets/f087b7d8-9e90-4b0d-bac4-5129fe77d402)
+
 
 4.Select Image Project
 
-image
+![image](https://github.com/user-attachments/assets/b6450998-b249-4342-9550-cad5ec8d42fd)
 
 5.Add class names
 
-image
+![image](https://github.com/user-attachments/assets/8cd09aa0-fb02-4fd2-b7e1-6010e85ebbbd)
 
-Select tensorflow--opencvKeras .. download my model
-Screenshot 2025-01-10 115855
+
+6.Select tensorflow--opencvKeras .. download my model
+
+![image](https://github.com/user-attachments/assets/300abe7f-5657-4857-889d-ced1bbd2122d)
+
 
 Running the Project
 
@@ -58,11 +65,12 @@ Extract the ZIP file to your desired location.
 
 make sure the keras model and labels are also in the same directory
 
-image
+![image](https://github.com/user-attachments/assets/37ae82f2-d5b7-4945-adca-3951e73b4c4e)
+
 
 Open the face_Recognition file ( code.py) to launch the application.
 
-image
+![image](https://github.com/user-attachments/assets/27d03b67-5a6a-44ce-be34-68bbae97c257)
 
 REQUIREMENTS:
 PYTHON 3.9(interpreter)
@@ -120,7 +128,6 @@ Camera Not Accessible: Ensure no other application is using the camera.
 Model/Labels Not Found: Verify the paths to keras_model.h5 and labels.txt.
 
 OpenCV Errors: Check if the camera is functioning properly.
-
 
 install necessary libraries in the terminal
 
