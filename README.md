@@ -92,6 +92,7 @@ set CUDA_VISIBLE_DEVICES=-1
 pip install opencv-python==4.5.5.64
 
 FILE STRUCTURE:
+
 Purpose of key files:
 
 keras_model.h5: Pre-trained Keras model file.
@@ -101,6 +102,7 @@ labels.txt: Text file with class names for the model.
 face_recognition.py: Main Python script for running the program.
 
 HOW IT WORKS:
+
 Workflow:
 
 The script loads the model and labels.
@@ -112,6 +114,7 @@ Each frame is resized and normalized before being passed to the model for predic
 The predicted class and confidence score are displayed on the video feed.
 
 Customization
+
 How users can adapt the code:
 
 Replace keras_model.h5 with a custom model trained for their use case.
@@ -121,6 +124,7 @@ Update labels.txt with corresponding class names.
 Change the video source (e.g., use a video file instead of a camera).
 
 Troubleshooting
+
 Common issues and their solutions:
 
 Camera Not Accessible: Ensure no other application is using the camera.
@@ -144,7 +148,10 @@ run the code
 Customize as Needed:
 
 Edit files to fit your requirements.
+
 Add custom branding or functionality.
+
 Contribution
+
 Feel free to contribute to this project by submitting a pull request or opening an issue.
 
